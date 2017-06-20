@@ -8,6 +8,8 @@ Shell
 >
 >2 配置下桌面路径
 >
->3 chmod +x SWUploadAPP.sh  赋予执行权限
+>3 配置下蒲公英的账号
 >
->4 sh SWUploadAPP.sh 就👌了
+>4 chmod +x SWUploadAPP.sh  赋予执行权限
+>
+>5 sh SWUploadAPP.sh 就👌了
