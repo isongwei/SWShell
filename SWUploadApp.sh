@@ -19,10 +19,15 @@ deskTopPath="/Users/mac/Desktop"
 
 #真机编译包路径
 <<<<<<< HEAD
+<<<<<<< HEAD
 # 我的来借钱
 packagePath="/Users/mac/Library/Developer/Xcode/DerivedData/Bumblebee-fwvpnwiepzmkipglxbqcowygszqv/Build/Products/Debug-iphoneos"
 # packagePath="/Users/mac/Library/Developer/Xcode/DerivedData/SWFrame-exalkccitggdcuddqjeqlywmmuhc/Build/Products/Debug-iphoneos"
 # packagePath="/Users/Sven/Library/Developer/Xcode/DerivedData/SWFrame-gorosqppssbkhldfmxtohnbvxdtd/Build/Products/Debug-iphoneos/"
+=======
+packagePath="/Users/mac/Library/xxxxxxxx"
+
+>>>>>>> origin/master
 =======
 packagePath="/Users/mac/Library/xxxxxxxx"
 
