@@ -4,25 +4,32 @@
 
 
 
+
 #FIR 秘钥
 FIRTOKEN="5558b26ae383df7390b880bexxxxxxx"
 #蒲公英aipKey
-PAPIKEY="406daf9470fe9589cb55993d25c02742"
+PAPIKEY="406daf9470fe9589xxxxxxxxx"
 #蒲公英uKey
-PUKEY="b7ae97e875ce35f5717ce33760008d5e"
+PUKEY="b7ae97e875ce35f57xxxxxxx"
 
 
 
 #桌面路径
 deskTopPath="/Users/mac/Desktop"
+
 #真机编译包路径
+<<<<<<< HEAD
 # 我的来借钱
-packagePath="/Users/mac/Library/Developer/Xcode/DerivedData/Bumblebee-giguxkemnebngsfvsavznqxbqbno/Build/Products/Debug-iphoneos"
+packagePath="/Users/mac/Library/Developer/Xcode/DerivedData/Bumblebee-fwvpnwiepzmkipglxbqcowygszqv/Build/Products/Debug-iphoneos"
 # packagePath="/Users/mac/Library/Developer/Xcode/DerivedData/SWFrame-exalkccitggdcuddqjeqlywmmuhc/Build/Products/Debug-iphoneos"
 # packagePath="/Users/Sven/Library/Developer/Xcode/DerivedData/SWFrame-gorosqppssbkhldfmxtohnbvxdtd/Build/Products/Debug-iphoneos/"
+=======
+packagePath="/Users/mac/Library/xxxxxxxx"
+
+>>>>>>> origin/master
 
 #项目名称
-# scheme_name="Bumblebee"
+
 scheme_name=$( echo $packagePath | awk -F'-' '{print$1}' | awk -F'/' '{print$(NF-0)}')
 
 dire="$deskTopPath/Payload"
@@ -53,7 +60,7 @@ fi
 mv $scheme_name.zip $scheme_name.ipa
 
 
-echo "\033[31;1m导出 ${scheme_name}.ipa包成功     🚀🚀🚀🚀🚀    \033[0m"
+echo "\033[31;1m导出 ${scheme_name}.ipa包成功   \033[0m"
 
 echo "\033[36;1m 打包上传到蒲公英?(y/n)(输入,按回车即可) \033[0m"
 echo "\033[33;1m1. y  上传       \033[0m"
